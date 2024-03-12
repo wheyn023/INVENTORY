@@ -31,9 +31,12 @@ xui.Class('App.SM HOME INVENTORY', 'xui.Module',{
                     {
                         "desc" : "Action 1",
                         "type" : "page",
-                        "target" : "App",
-                        "args" : [true],
-                        "method" : "switch",
+                        "target" : "*",
+                        "args" : [
+                            {
+                            }
+                        ],
+                        "method" : "open",
                         "event" : 1
                     }
                 ])
