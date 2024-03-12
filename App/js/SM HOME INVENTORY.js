@@ -19,7 +19,26 @@ xui.Class('App.SM HOME INVENTORY', 'xui.Module',{
         iniComponents : function(){
             // [[Code created by CrossUI RAD Studio
             var host=this, children=[], append=function(child){children.push(child.get(0));};
-
+            
+            append(
+                xui.create("xui.UI.Button")
+                .setHost(host,"xui_ui_button46")
+                .setLeft("53.333333333333336em")
+                .setTop("1.5238095238095237em")
+                .setCaption("BACK")
+                .setImageClass("xui-icon-xui")
+                .onClick([
+                    {
+                        "desc" : "Action 1",
+                        "type" : "page",
+                        "target" : "App",
+                        "args" : [true],
+                        "method" : "switch",
+                        "event" : 1
+                    }
+                ])
+            );
+            
             return children;
             // ]]Code created by CrossUI RAD Studio
         },
