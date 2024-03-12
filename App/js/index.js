@@ -33,8 +33,11 @@ xui.Class('App', 'xui.Module',{
                         "desc" : "Action 1",
                         "type" : "page",
                         "target" : "App.SM HOME INVENTORY",
-                        "args" : [true],
-                        "method" : "switch",
+                        "args" : [
+                            {
+                            }
+                        ],
+                        "method" : "open",
                         "event" : 1
                     }
                 ])
@@ -53,8 +56,11 @@ xui.Class('App', 'xui.Module',{
                         "desc" : "Action 1",
                         "type" : "page",
                         "target" : "App.SURPLUS INVENTORY",
-                        "args" : [true],
-                        "method" : "switch",
+                        "args" : [
+                            {
+                            }
+                        ],
+                        "method" : "open",
                         "event" : 1
                     }
                 ])
